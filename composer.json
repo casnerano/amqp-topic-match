@@ -10,9 +10,6 @@
             "email": "voiciano@mail.ru"
         }
     ],
-    "require": {
-        "psr/log": ">=7.4"
-    },
     "autoload": {
         "psr-4": {
             "Voiciano\\AMQPTopicMatch\\": "src/"
