@@ -1,0 +1,27 @@
+{
+    "name": "voiciano/amqp-topic-match",
+    "type": "library",
+    "description": "AMQP topic match by Voiciano",
+    "keywords": ["amqp","amqp topic", "amqp match"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arutyunyan A.",
+            "email": "voiciano@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Voiciano\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.*",
+        "symfony/var-dumper": "v5.3.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Voiciano\\Tests\\": "tests/"
+        }
+    }
+}
