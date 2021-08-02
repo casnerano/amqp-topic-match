@@ -1,7 +1,7 @@
 {
     "name": "voiciano/amqp-topic-match",
     "type": "library",
-    "description": "AMQP topic match by Voiciano",
+    "description": "A utility for matching routing keys to AMQP-style topic patterns.",
     "keywords": ["amqp","amqp topic", "amqp match"],
     "license": "MIT",
     "authors": [
