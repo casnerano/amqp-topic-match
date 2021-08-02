@@ -10,8 +10,8 @@
             "email": "voiciano@mail.ru"
         }
     ],
-    "require-dev": {
-        "php": "^7.4"
+    "require": {
+        "php": ">=7.4"
     },
     "autoload": {
         "psr-4": {
