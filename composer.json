@@ -21,7 +21,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Voiciano\\Tests\\": "tests/"
+            "Voiciano\\AMQPTopicMatch\\Tests\\": "tests/"
         }
     }
 }
