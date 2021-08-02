@@ -40,20 +40,11 @@ class AMQPTopicMatchTest extends TestCase
         foreach ($check_patterns as $pattern => $routing_keys) {
             foreach ($routing_keys as $routing_key => $expected_result_value)
             {
-                if ($expected_result_value)
-                {
-                    $this->assertTrue(
-                        $amqp_topic_match->match($routing_key, $pattern),
-                        sprintf('Routing key "%s" does not match patter "%s"', $routing_key, $pattern)
-                    );
-                }
-                else
-                {
-                    $this->assertFalse(
-                        $amqp_topic_match->match($routing_key, $pattern),
-                        sprintf('Routing key "%s" does not match patter "%s"', $routing_key, $pattern)
-                    );
-                }
+                $this->assertThat(
+                    $amqp_topic_match->match($routing_key, $pattern),
+                    $expected_result_value ? $this->isTrue() : $this->isFalse(),
+                    sprintf('Routing key "%s" does not match patter "%s"', $routing_key, $pattern)
+                );
             }
         }
     }
