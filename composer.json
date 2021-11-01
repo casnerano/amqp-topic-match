@@ -1,5 +1,5 @@
 {
-    "name": "voiciano/amqp-topic-match",
+    "name": "casnerano/amqp-topic-match",
     "type": "library",
     "description": "A utility for matching routing keys to AMQP-style topic patterns.",
     "keywords": ["amqp","amqp topic", "amqp match"],
@@ -7,7 +7,7 @@
     "authors": [
         {
             "name": "Arutyunyan A.",
-            "email": "voiciano@mail.ru"
+            "email": "casnerano@mail.ru"
         }
     ],
     "require": {
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Voiciano\\AMQPTopicMatch\\": "src/"
+            "Casnerano\\AMQPTopicMatch\\": "src/"
         }
     },
     "require-dev": {
@@ -24,7 +24,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Voiciano\\AMQPTopicMatch\\Tests\\": "tests/"
+            "Casnerano\\AMQPTopicMatch\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "dev"
