@@ -1,9 +1,9 @@
 <?php
 
-namespace Voiciano\AMQPTopicMatch\Tests;
+namespace Casnerano\AMQPTopicMatch\Tests;
 
 use \PHPUnit\Framework\TestCase,
-    \Voiciano\AMQPTopicMatch\AMQPTopicMatch;
+    \Casnerano\AMQPTopicMatch\AMQPTopicMatch;
 
 class AMQPTopicMatchTest extends TestCase
 {
