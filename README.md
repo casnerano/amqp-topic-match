@@ -5,7 +5,7 @@ A utility for matching routing keys to AMQP-style topic patterns.
 ## Usage
 
 ```php
-use \Voiciano\AMQPTopicMatch\AMQPTopicMatch;
+use \Casnerano\AMQPTopicMatch\AMQPTopicMatch;
 
 $amqp_topic_match = new AMQPTopicMatch();
 
